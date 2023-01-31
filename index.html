@@ -1,0 +1,58 @@
+<!-- 
+
+  Question:
+  Write a function that returns a "Zero" for any number ending with 0, 
+  a "Five" for any number ending with 5, an "Even" for any even number, 
+  and ad "Odd" for any odd number.
+
+-->
+
+<!-- console.log(numberType(100));
+// Output: Zero
+
+console.log(numberType(88));
+// Output: Even
+
+console.log(numberType(155));
+// Output: Five
+
+console.log(numberType(99));
+// Output: Odd -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Type Classifier</title>
+  <!-- Font -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="description">
+      This application classifies a given number into one of four categories: "Zero" for any number ending with 0,
+      "Five" for any number ending with 5, "Even" for any even number, and "Odd" for any odd number.
+    </div>
+    <div>
+      <label for="inputNumber">Input Number:</label>
+      <input type="text" id="inputNumber">
+    </div>
+    <br>
+    <button onclick="showResult()">Show Result </button>
+    <br><br>
+    <div>
+      <label for="outputResult">Result:</label>
+      <span id="outputResult"></span>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
